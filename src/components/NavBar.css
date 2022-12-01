@@ -1,0 +1,35 @@
+.nvl {
+  color: #dc2626;
+  cursor: pointer;
+  font-size: 64px;
+  margin-top: 1px;
+}
+.btn2 {
+  background-color: #dc2626;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 6px;
+  color: white;
+  border: none;
+}
+.btn1 {
+  color: white;
+  background-color: transparent;
+  padding-right: 16px;
+  border: none;
+}
+.nvbr {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3px;
+  width: 100%;
+  z-index: 100;
+  position: absolute;
+}
+
+.hvr {
+  margin-top: -20px;
+}

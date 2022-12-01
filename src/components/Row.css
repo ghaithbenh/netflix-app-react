@@ -1,0 +1,123 @@
+.row-title {
+  color: white;
+  font-weight: 700;
+  padding: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  row-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+.row-container {
+  position: relative;
+  align-items: center;
+  display: flex;
+}
+.row-container:hover .md-iconl,
+.md-iconr {
+  visibility: visible;
+}
+.row-container:hover .md-iconl {
+  left: 0;
+}
+.row-container:hover .md-iconr {
+  right: 0;
+  visibility: visible;
+}
+
+.movies-container {
+  width: 160px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding: 8px;
+}
+@media (min-width: 640px) {
+  .movies-container {
+    width: 240px;
+  }
+}
+@media (min-width: 1024px) {
+  .movies-container {
+    width: 280px;
+  }
+}
+.movies-image-container {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.imgs {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  color: white;
+}
+.imgs:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+
+  opacity: 100;
+}
+.img-title {
+  white-space: normal;
+  font-size: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  display: flex;
+}
+@media (min-width: 1024px) {
+  .img-title {
+    font-size: 20px;
+  }
+}
+
+.fah-icon,
+.far-icon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: rgb(156 163 175);
+}
+
+.slider-container {
+  width: 100%;
+  height: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  position: relative;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.md-iconl {
+  background-color: white;
+  border-radius: 9999px;
+  position: absolute;
+  opacity: 0.5;
+  cursor: pointer;
+  z-index: 10;
+  visibility: hidden;
+}
+.md-iconl:hover {
+  opacity: 1;
+}
+.md-iconr {
+  background-color: white;
+  border-radius: 9999px;
+  position: absolute;
+  opacity: 0.5;
+  cursor: pointer;
+  z-index: 10;
+  visibility: hidden;
+}
+.md-iconr:hover {
+  opacity: 1;
+}
